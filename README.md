@@ -25,5 +25,21 @@ Esto generará un archivo ejecutable llamado vacunacion que puedes ejecutar en t
 
 Una vez compilado el código, puedes ejecutar el programa utilizando el siguiente comando:
 
-```bash
-./vacunacion
+   ```bash
+   ./vacunacion
+
+## Archivos del Proyecto
+
+### 1. vacunacion.c: Código fuente principal del programa.
+El archivo `vacunacion.c` contiene la implementación de la simulación del proceso de vacunación. El código está estructurado para:
+
+- Leer los parámetros de entrada desde el archivo `entrada.txt`.
+- Crear hilos para simular la fabricación de vacunas, el reparto de vacunas y la asignación de citas.
+- Realizar la simulación utilizando los datos obtenidos de los archivos de entrada.
+- Generar resultados que se almacenarán en el archivo `salida.txt`.
+
+El código utiliza la librería `pthread` para gestionar múltiples hilos de ejecución que simulan el proceso concurrente de producción y distribución de vacunas.
+
+### 2. entrada.txt: Archivo con datos de entrada.
+El archivo `entrada.txt` contiene los parámetros necesarios para la simulación. Los valores que aparecen corresponden a: 
+
