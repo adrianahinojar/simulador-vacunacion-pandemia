@@ -56,14 +56,14 @@ El archivo `entrada.txt` contiene los parámetros necesarios para la simulación
 
 5. `t_min_fabricacion_tanda`: El tiempo mínimo que se tarda en fabricar una tanda de vacunas (en segundos). Este valor afecta a la rapidez con la que las fábricas producen las vacunas y al ritmo con el que se distribuyen.
 
-6. **t_max_fabricacion_tanda**:  
+6. `t_max_fabricacion_tanda`:  
    El tiempo máximo para fabricar una tanda de vacunas (en segundos). Similar al valor anterior, pero permite un rango superior para la variabilidad en el tiempo de fabricación de cada tanda.
 
-7. **t_max_reparto**:  
+7. `t_max_reparto`:  
    El tiempo máximo que se tarda en repartir las vacunas a los centros de vacunación. Este valor afecta la rapidez con la que se distribuyen las vacunas entre los centros, y puede variar dependiendo de la logística simulada en el proceso de reparto.
 
-8. **t_max_cita**:  
+8. `t_max_cita`:  
    El tiempo máximo para asignar una cita a un habitante. Este valor define la rapidez con la que los ciudadanos pueden recibir su cita para ser vacunados.
 
-9. **t_max_desplazamiento**:  
+9. `t_max_desplazamiento`:  
    El tiempo máximo que tarda un habitante en desplazarse hacia un centro de vacunación. Este parámetro también afecta al tiempo total de simulación, ya que el desplazamiento de los ciudadanos es una parte del proceso de vacunación.
