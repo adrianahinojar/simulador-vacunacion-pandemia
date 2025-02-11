@@ -46,29 +46,12 @@ El archivo `vacunacion.c` contiene la implementación de la simulación del proc
 ### 2. entrada.txt: Archivo con datos de entrada.
 El archivo `entrada.txt` contiene los parámetros necesarios para la simulación. Los valores que aparecen corresponden a:
 
-1. **1200**  
-   `habitantes`: El número total de habitantes en la simulación. Este valor define cuántas personas participarán en el proceso de vacunación.
+1. `habitantes`: El número total de habitantes en la simulación. Este valor define cuántas personas participarán en el proceso de vacunación.
 
-2. **15**  
-   `centros_vacunacion`: El número de centros de vacunación disponibles en la simulación. Los centros de vacunación son los lugares donde los habitantes recibirán las vacunas.
+2. `vacunas_iniciales`: El número de vacunas disponibles al principio de la simulación, antes de que comience la producción en las fábricas. Este valor indica las vacunas ya distribuidas a los centros de vacunación.
 
-3. **25**  
-   `fabricas`: El número de fábricas que producirán las vacunas. Este valor define cuántas fábricas estarán encargadas de la producción de las vacunas.
+3. `min_vacunas_tanda`: El número mínimo de vacunas que se fabrican en cada tanda. Este valor establece el rango de producción, lo que significa que no todas las tandas tendrán el mismo número exacto de vacunas.
 
-4. **50**  
-   `vacunas_tanda`: El número de vacunas fabricadas por tanda. Cada fábrica producirá este número de vacunas en un ciclo de fabricación.
+4. `max_vacunas_tanda`: El número máximo de vacunas que se fabrican por tanda. Al igual que el valor anterior, esto define el límite superior para la cantidad de vacunas que pueden fabricarse por ciclo.
 
-5. **20**  
-   `vacunas_iniciales`: El número de vacunas disponibles al principio de la simulación, antes de que comience la producción en las fábricas. Este valor indica las vacunas ya distribuidas a los centros de vacunación.
-
-6. **40**  
-   `vacunas_fabrica`: El número de vacunas que cada fábrica produce por ciclo. Este valor afecta directamente a la cantidad de vacunas que se distribuirán a lo largo del tiempo.
-
-7. **3**  
-   `min_vacunas_tanda`: El número mínimo de vacunas que se fabrican en cada tanda. Este valor establece el rango de producción, lo que significa que no todas las tandas tendrán el mismo número exacto de vacunas.
-
-8. **4**  
-   `max_vacunas_tanda`: El número máximo de vacunas que se fabrican por tanda. Al igual que el valor anterior, esto define el límite superior para la cantidad de vacunas que pueden fabricarse por ciclo.
-
-9. **2**  
-   `t_min_fabricacion_tanda`: El tiempo mínimo que se tarda en fabricar una tanda de vacunas (en segundos). Este valor afecta a la rapidez con la que las fábricas producen las vacunas y al ritmo con el que se distribuyen.
+5. `t_min_fabricacion_tanda`: El tiempo mínimo que se tarda en fabricar una tanda de vacunas (en segundos). Este valor afecta a la rapidez con la que las fábricas producen las vacunas y al ritmo con el que se distribuyen.
