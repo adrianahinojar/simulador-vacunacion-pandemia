@@ -4,9 +4,11 @@ Simulación de un sistema de vacunación en pandemia utilizando hilos en C. El p
 
 ## Descripción
 
-El programa tiene como entrada una serie de parámetros que se leen desde el archivo `entrada.txt`. A partir de esos parámetros, el programa simula la producción de vacunas, su distribución a diferentes centros de salud, y la asignación de citas a los ciudadanos. La simulación se realiza en múltiples hilos, que permiten una ejecución concurrente de las diferentes etapas del proceso de vacunación.
+El programa tiene como entrada una serie de parámetros que se leen desde el archivo `entrada.txt`. A partir de esos parámetros, el programa simula la producción de vacunas, su distribución a diferentes centros de salud, y la asignación de citas a los ciudadanos. 
 
-El programa está diseñado para funcionar en un entorno Linux, utilizando la librería `pthread` para gestionar los hilos. 
+La simulación se realiza en múltiples hilos, que permiten una ejecución concurrente de las diferentes etapas del proceso de vacunación.
+
+Está diseñado para funcionar en un entorno Linux, utilizando la librería `pthread` para gestionar los hilos. 
 
 ### Compilación
 
@@ -18,6 +20,7 @@ Para compilar el código fuente `vacunacion.c` en Linux, sigue los siguientes pa
 
    ```bash
    gcc -o vacunacion vacunacion.c -lpthread
+  
 
 Esto generará un archivo ejecutable llamado vacunacion que puedes ejecutar en tu sistema.
 
@@ -27,6 +30,8 @@ Una vez compilado el código, puedes ejecutar el programa utilizando el siguient
 
    ```bash
    ./vacunacion
+   ```
+
 
 ## Archivos del Proyecto
 
@@ -37,8 +42,6 @@ El archivo `vacunacion.c` contiene la implementación de la simulación del proc
 - Crear hilos para simular la fabricación de vacunas, el reparto de vacunas y la asignación de citas.
 - Realizar la simulación utilizando los datos obtenidos de los archivos de entrada.
 - Generar resultados que se almacenarán en el archivo `salida.txt`.
-
-El código utiliza la librería `pthread` para gestionar múltiples hilos de ejecución que simulan el proceso concurrente de producción y distribución de vacunas.
 
 ### 2. entrada.txt: Archivo con datos de entrada.
 El archivo `entrada.txt` contiene los parámetros necesarios para la simulación. Los valores que aparecen corresponden a: 
