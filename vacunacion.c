@@ -119,7 +119,6 @@ void imprimirConfiguracionInicial(FILE *salida){//imprimir en pantalla y escribi
 }
 void distribuir_vacunas(int cantidadVacunas,int id_fabrica){
     int total_personas_esperando = 0;
-    //int *centros_a_despertar = (int *)calloc(centros_vacunacion, sizeof(int)); // Array para saber qué centros despertar
     int vacunas_asignadas;
 
     pthread_mutex_lock(&mutex); //bloqueamos el mutex para que ningún otro hilo pueda entrar a la sección crítica hasta que el primero haya terminado
