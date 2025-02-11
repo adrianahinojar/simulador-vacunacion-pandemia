@@ -18,3 +18,12 @@ Para compilar el código fuente `vacunacion.c` en Linux, sigue los siguientes pa
 
    ```bash
    gcc -o vacunacion vacunacion.c -lpthread
+
+Esto generará un archivo ejecutable llamado vacunacion que puedes ejecutar en tu sistema.
+
+### Ejecución
+
+Una vez compilado el código, puedes ejecutar el programa utilizando el siguiente comando:
+
+```bash
+./vacunacion
