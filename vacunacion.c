@@ -1,11 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
-#include <unistd.h> //para el sleep
+#include <unistd.h>
 
-//VARIABLES GLOBALES
-
-//configuracion inicial
 int habitantes;
 int centros_vacunacion;
 int fabricas;
