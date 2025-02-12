@@ -70,4 +70,9 @@ El archivo `entrada.txt` contiene los parámetros necesarios para la simulación
 
    ### 3. salida.txt: Archivo con las estadisticas del programa
 
-   El archivo `salida.txt` 
+   El archivo `salida.txt` permite analizar la eficiencia del sistema, identificando cómo fluye el suministro de vacunas y cómo se lleva a cabo la vacunación en función de los recursos disponibles.
+
+   
+**Fabricación:** Se muestra cuántas vacunas fueron producidas por cada fábrica.  
+**Distribución:** Indica cómo se reparten las vacunas entre los centros de vacunación.  
+**Vacunación:** Se registran las vacunas administradas y las que quedan disponibles al final.  
