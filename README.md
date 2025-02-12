@@ -67,3 +67,7 @@ El archivo `entrada.txt` contiene los parámetros necesarios para la simulación
 
 9. `t_max_desplazamiento`:  
    El tiempo máximo que tarda un habitante en desplazarse hacia un centro de vacunación. Este parámetro también afecta al tiempo total de simulación, ya que el desplazamiento de los ciudadanos es una parte del proceso de vacunación.
+
+   ### 3. salida.txt: Archivo con las estadisticas del programa
+
+   El archivo `salida.txt` 
